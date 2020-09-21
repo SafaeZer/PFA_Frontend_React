@@ -1,0 +1,171 @@
+
+#login {
+	display: none;
+}
+.login {
+	position: absolute;
+	top: -3px;
+	right: 0;
+}
+.logout {
+	position: absolute;
+	top: -3px;
+	right: 0;
+}
+.page-header {
+	position: relative;
+	margin-left: 50px;
+}
+.reviews {
+	color: #555;
+	font-weight: bold;
+    margin: 10px auto 20px;
+    
+}
+.notes {
+	color: #999;
+	font-size: 12px;
+}
+.media {
+	.media-object {
+		max-width: 120px;
+	}
+}
+.media-heading{
+	margin-left: -3px;
+	font-size: 20px;
+}
+.media-body {
+	position: relative;
+}
+.media-date {
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	li {
+		padding: 0;
+		&:first-child {
+			&:before {
+				content: '';
+			}
+		}
+		&:before {
+			content: '.';
+			margin-left: -2px;
+			margin-right: 2px;
+		}
+	}
+}
+.media-comment {
+	margin-bottom: 20px;
+	text-align: left;
+}
+.media-replied {
+	margin: 0 0 20px 50px;
+	.media-heading {
+		padding-left: 6px;
+	}
+}
+.btn-circle {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 6px 15px;
+	border-radius: 20px;
+	span {
+		padding-right: 6px;
+	}
+	
+}
+.embed-responsive {
+	margin-bottom: 20px;
+}
+.tab-content {
+	padding: 50px 15px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.custom-input-file {
+	overflow: hidden;
+	position: relative;
+	width: 120px;
+	height: 120px;
+	background: #eee url('https://s3.amazonaws.com/uifaces/faces/twitter/walterstephanie/128.jpg');
+	background-size: 120px;
+	border-radius: 120px;
+	&:hover {
+		.uploadPhoto {
+			display: block;
+		}
+	}
+}
+input[type="file"] {
+	z-index: 999;
+	line-height: 0;
+	font-size: 0;
+	position: absolute;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+	-ms-filter: "alpha(opacity=0)";
+	margin: 0;
+	padding: 0;
+	left: 0;
+}
+.uploadPhoto {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	display: none;
+	width: 50%;
+	height: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,.3);
+	border-radius: 50px;
+	cursor: pointer;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.nav-item{
+    margin-top: 100px;
+}
+
+h3{
+    text-align: left;
+}
+.btn-info{
+	
+    font-size: 12px;
+	margin-right: 600px;
+}
+.btn-warning{
+	
+    font-size: 12px;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    margin-top: 10px;
+	margin-right: 600px; 
+	display: none;
+	 
+}
+.comment-tabs{
+	margin-left: 50px;
+}
+.btn{
+	text-align: center;
+	
+}
+
+
+
+
+
